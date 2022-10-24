@@ -1,0 +1,44 @@
+.CounterWithLogger {
+    width: 500px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.CounterWithLogger h4 {
+    font-size: 30px;
+    text-align: center;
+}
+.CounterWithLogger span {
+    display: block;
+    margin: 8px;
+    color: rgb(74, 17, 4);
+}
+.CounterWithLogger button {
+    height: 35px;
+    font-weight: 900;
+    background-color: inherit;
+    border: 1px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.CounterWithLogger button:hover {
+    background-color: rgb(94, 135, 94);
+}
+
+.CounterWithLogger .span {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+}
+.CounterWithLogger select {
+    display: block;
+    width: 160px;
+    margin: 20px auto;
+    height: 45px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.count {
+    width: 500px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.count h4 {
+    font-size: 30px;
+    text-align: center;
+}
+.count span {
+    font-size: 30px;
+    display: block;
+}
+.count button {
+    display: block;
+    font-weight: 900;
+    height: 32px;
+    margin-bottom: 15px;
+    background-color: inherit;
+    border: 1px solid rgb(0, 33, 0);
+    cursor: pointer;
+}
+.count button:hover {
+    background-color: rgb(166, 222, 203);
+}
